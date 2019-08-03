@@ -26,7 +26,3 @@ function div(){
     suma = parseInt(valor1)/parseInt(valor2)
     document.getElementById("response").innerHTML = suma; 
 }
-
-document.getElementById("clear").onclick = function() {
-    document.getElementById("response").innerHTML = '';
-}
